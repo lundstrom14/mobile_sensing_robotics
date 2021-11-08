@@ -48,6 +48,7 @@ def motion_model(action, belief):
 
     return new_belief
 
+
 # Action either string F or B. Belief is a belief vector of 15 positions. Returns belief.
 def motion_model2(action, belief):
     actions = {"CORR_DIR": 0.7, "NO_ACTION": 0.2, "INCORR_ACTION": 0.1}
